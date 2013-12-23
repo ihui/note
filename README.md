@@ -1,0 +1,4 @@
+diary
+=====
+
+daily log
