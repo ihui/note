@@ -1,0 +1,1 @@
+[Mac环境下Octopress个人博客搭建:](http://www.cnblogs.com/sawyerzhu/p/3710374.html)
