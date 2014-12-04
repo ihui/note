@@ -20,4 +20,22 @@ function is.na()  and  is.nan()
 Data Frames are used to store tabular data.  
 
 ####Names  
-objects can have names.
+objects can have names.  
+
+####Subsetting  
+[]  [[]]  $  
+[[ can be used with computed indices and can take an integer sequence; $ can only be used with literal names.  
+complete.cases()  
+
+####Vectorized Operations  
+  
+  
+####Reading Data  
+- read.table, read.csv   
+-  
+- 
+- file, gzfile, bzfile, url  
+- colClasses
+
+####Writing Data  
+- 
