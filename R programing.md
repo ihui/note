@@ -38,4 +38,17 @@ complete.cases()
 - colClasses
 
 ####Writing Data  
+-    
+  
+####Coding Standard  
+1. Always use text files/text editor  
+2. Indent your code
+3. Limit the width of your code(80 columns?)  
+4.   
+  
+####Date and Time  
+- Dates and times have special classes in R that allow for numerical and statistical calculations  
+- Dates use the Date class  
+- Times use the POSIXct and POSIXlt class  
+- Character strings can be coerced to Date/Time classes using the strptime function or the as.Date, as.POSIXlt, or as.POSIXct  
 - 
