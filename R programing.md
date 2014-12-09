@@ -51,4 +51,4 @@ complete.cases()
 - Dates use the Date class  
 - Times use the POSIXct and POSIXlt class  
 - Character strings can be coerced to Date/Time classes using the strptime function or the as.Date, as.POSIXlt, or as.POSIXct  
-- 
+ 
