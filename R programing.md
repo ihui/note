@@ -75,3 +75,5 @@ split takes a vector or other objects and splits it into groups determined by a 
 - Times use the POSIXct and POSIXlt class  
 - Character strings can be coerced to Date/Time classes using the strptime function or the as.Date, as.POSIXlt, or as.POSIXct  
  
+####debugging tools in R  
+trackback, debug, browser trace recover  
