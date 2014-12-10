@@ -44,7 +44,30 @@ complete.cases()
 1. Always use text files/text editor  
 2. Indent your code
 3. Limit the width of your code(80 columns?)  
-4.   
+4.     
+  
+####lapply  
+
+
+####apply  
+apply is used to a evaluate a function over the margins of an array.  
+- rowSums = apply(x,1,sum)  
+- rowMeans = apply(x,1,mean)  
+- colSums = apply(x,2,sum)  
+- colMeans = apply(x,2,mean)  
+Quantiles of the rows of a matrix    
+x<-matrix(rnorm(200),20,10)  
+apply(x,1,quantile, probs = c(0.25,0.75))  
+  
+####mapply  
+mapply is a multivariate apply of sorts which applies a function in parallel over a set of arguments.  
+   
+####tapply  
+tapply is used to apply a function over subsets of a vector.   
+  
+####split  
+split takes a vector or other objects and splits it into groups determined by a factor or list of factors.  
+
   
 ####Date and Time  
 - Dates and times have special classes in R that allow for numerical and statistical calculations  
