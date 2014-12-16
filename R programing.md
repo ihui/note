@@ -77,3 +77,24 @@ split takes a vector or other objects and splits it into groups determined by a 
  
 ####debugging tools in R  
 trackback, debug, browser trace recover  
+
+
+####str function  
+compactly display the internal structure of an R object.  
+  
+####Simulation  
+- rnorm: generate random Normal variates with a given mean and standard deviation.  
+- dnorm: evaluate the Normal probability density (with a given mean/SD) at a point (or vector of points)  
+- pnorm: evaluate the cumulative distribution function for a Normal distribution  
+- rpois: generate random Poisson variates with a given rate  
+  
+Probability distribution function usually have four functions associated with them. The function are prefixed with a  
+- d  
+- p  
+- r  
+- q  
+  
+####Profiling code  
+Profiling is a systematic way to examine how much time is spend in different parts of a program  
+system.time()   
+Rprof(): this function starts the profiler in R  
