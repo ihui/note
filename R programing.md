@@ -101,18 +101,19 @@ Rprof(): this function starts the profiler in R
    
 ####2 functions  
 #####complete.R  
-complete <- function(directory,  id = 1:332) {  
-  paths <- list.files(directory, pattern = "csv", full.names = TRUE)  
-  k = length(id)  
-  j=1  
-  p2 <- matrix(0,k,2)  
-  for(i in id) {  
-    data <- read.csv(paths[i])   
-    data1 <- na.omit(data)##忽略NA  
-    p2[j,1] = i  
-    p2[j,2] = nrow(data1)  
-    j = j+1     
-  }  
+  
+  complete <- function(directory,  id = 1:332) {  
+    paths <- list.files(directory, pattern = "csv", full.names = TRUE)  
+    k = length(id)  
+    j=1  
+    p2 <- matrix(0,k,2)  
+    for(i in id) {  
+      data <- read.csv(paths[i])   
+      data1 <- na.omit(data)##忽略NA  
+      p2[j,1] = i  
+      p2[j,2] = nrow(data1)  
+      j = j+1     
+    }  
   colnames(p2) <- c("id","nobs")  
   p2  
 }  
