@@ -116,4 +116,18 @@ Rprof(): this function starts the profiler in R
       }
       colnames(p2) <- c("id","nobs")
       p2
+    }  
+ 
+
+#####pollutantmean.R  
+  
+    pollutantmean <- function(directory, pollutant, id = 1:332) {
+      paths <- list.files(directory, pattern = "csv", full.names = TRUE)
+      p=c()##建一个空向量
+      for(i in id) {
+        data <- read.csv(paths[i])
+        p1 <- data[ ,pollutant]
+        p <- c(p1,p)    
+      }
+      mean(p,na.rm=TRUE)## “id”向量中的 (忽略 NA值)
     }
