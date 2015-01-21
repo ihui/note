@@ -5,7 +5,6 @@ Below are expensive(100s thounsand RMB)
 - Aircam UAV Technology Corporation （China）http://www.cnuav.com/   ×
 - http://ilidar.com/  
 - MAVinci http://www.mavinci.de/  
-- XAIRWAY http://www.xaircraft.cn/  
 - Aeryon  http://www.aeryon.com/  
 - Skycatch http://skycatch.com   compute platform online http://app.skycatch.com  video  http://vimeo.com/skycatchinc/videos  
 - 广州极飞电子科技有限公司 http://www.xaircraft.cn/   http://xaircraft.taobao.com/
